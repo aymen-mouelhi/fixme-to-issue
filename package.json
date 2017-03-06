@@ -1,0 +1,26 @@
+{
+  "name": "fixme-to-issue",
+  "version": "1.0.0",
+  "description": "Automagically turn code annotations to github issues",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aymen-mouelhi/fixme-to-issue.git"
+  },
+  "keywords": [
+    "annotations",
+    "todo",
+    "fixme",
+    "github",
+    "issues"
+  ],
+  "author": "Aymen Mouelhi <aymen.mouelhi@gmail.com> (https://github.com/aymen-mouelhi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aymen-mouelhi/fixme-to-issue/issues"
+  },
+  "homepage": "https://github.com/aymen-mouelhi/fixme-to-issue#readme"
+}
