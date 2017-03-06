@@ -30,6 +30,7 @@
     "isbinaryfile": "^3.0.2",
     "minimatch": "^3.0.3",
     "minimist": "^1.2.0",
-    "readdirp": "^2.1.0"
+    "readdirp": "^2.1.0",
+    "request": "^2.80.0"
   }
 }
