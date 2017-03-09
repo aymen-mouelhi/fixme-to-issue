@@ -33,6 +33,7 @@
     "event-stream": "^3.3.4",
     "fs": "0.0.1-security",
     "isbinaryfile": "^3.0.2",
+    "lodash": "^4.17.4",
     "minimatch": "^3.0.3",
     "minimist": "^1.2.0",
     "promise": "^7.1.1",
