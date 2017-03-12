@@ -38,6 +38,7 @@
     "minimist": "^1.2.0",
     "promise": "^7.1.1",
     "readdirp": "^2.1.0",
+    "replace-in-file": "^2.5.0",
     "request": "^2.80.0"
   }
 }
