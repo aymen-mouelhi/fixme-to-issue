@@ -22,3 +22,20 @@ fixme-to-issue [options]
     -l, --line-length <n>    number of max characters a line (default: 1000)
     -h, --ignore-hidden <n>  ignore hidden files (default: false)
     -g, --git-ignore <n>     ignore patterns from your .gitignore file. This paramter accepts the path for the .gitIgnore file (default: false | no .gitignore is read
+
+### Config file
+Include a .fixme-to-issue in the root folder of your project and update the configuration:
+
+```
+{
+  "github": {
+    "username": "USERNAME",
+    "password": "PASSWORD"
+  },
+  "prefix": "[Issue Bot]",
+  "labels": [{
+    "TODO": "todos"
+  }]
+}
+
+```
