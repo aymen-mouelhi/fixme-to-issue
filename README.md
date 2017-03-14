@@ -33,8 +33,41 @@ Include a .fixme-to-issue in the root folder of your project and update the conf
     "password": "PASSWORD"
   },
   "prefix": "[Issue Bot]",
-  "labels": [{
-    "TODO": "todos"
+  "add_number_line": false,
+  "annotations": [{
+    "name": "NOTE",
+    "label": "notes",
+    "color": "grey"
+  },
+  {
+    "name": "FIXME",
+    "label": "fixme",
+    "color": "grey"
+  },
+  {
+    "name": "TODO",
+    "label": "todos",
+    "color": "grey"
+  },
+  {
+    "name": "BUG",
+    "label": "bug",
+    "color": "grey"
+  },
+  {
+    "name": "OPTIMIZE",
+    "label": "enhancements",
+    "color": "grey"
+  },
+  {
+    "name": "HACK",
+    "label": "need help",
+    "color": "grey"
+  },
+  {
+    "name": "CUSTOM",
+    "label": "my custom github label",
+    "color": "grey"
   }]
 }
 
