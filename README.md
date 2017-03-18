@@ -87,6 +87,9 @@ Include a .fixme-to-issue in the root folder of your project and update the conf
     -l, --line-length <n>    number of max characters a line (default: 1000)
     -h, --ignore-hidden <n>  ignore hidden files (default: false)
     -g, --git-ignore <n>     ignore patterns from your .gitignore file. This paramter accepts the path for the .gitIgnore file (default: false | no .gitignore is read
+    -u, --github-username    github username with push rights to the current repository
+    -p, --github-password    github password
+    -a, --annotations[array] array of annotations
 
 
 ### Custom Annotations
