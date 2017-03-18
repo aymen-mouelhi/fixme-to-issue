@@ -23,18 +23,17 @@ fixme-to-issue [options]
 Include a .fixme-to-issue in the root folder of your project and update the configuration:
 ```
 {
-  "max_line_length": 1000,
-  "ignore_hidden": false,
-  "use_git_ignore": true,
-  "ignored_directories": ["bin"],
-  "encoding": "utf8",
+  "max_line_length": 1000, // number of max characters a line (default: 1000)
+  "ignore_hidden": false, // ignore hidden files (default: false)
+  "use_git_ignore": true, ignore patterns from your .gitignore file. This parameter accepts the path for the .gitIgnore file (default: false | no .gitignore is read
+  "ignored_directories": ["bin"], Path patterns to exclude (default: include all files and directories)
+  "encoding": "utf8", file encoding to be scanned (default: utf8)
   "github": {
-    "username": "USERNAME",
-    "password": "PASSWORD"
+    "username": "USERNAME", // github username with push rights to the current repository
+    "password": "PASSWORD" // github password
   },
-  "prefix": "[Issue Bot]",
-  "add_number_line": false,
-  "annotations": [{
+  "prefix": "[Issue Bot]", // Prefix to use when creating issues
+  "annotations": [{ // List of annotations
     "name": "NOTE",
     "label": "notes",
     "color": "green"
@@ -87,9 +86,10 @@ Include a .fixme-to-issue in the root folder of your project and update the conf
     -l, --line-length <n>    number of max characters a line (default: 1000)
     -h, --ignore-hidden <n>  ignore hidden files (default: false)
     -g, --git-ignore <n>     ignore patterns from your .gitignore file. This paramter accepts the path for the .gitIgnore file (default: false | no .gitignore is read
-    -u, --github-username    github username with push rights to the current repository
-    -p, --github-password    github password
+    -u, --github_username    github username with push rights to the current repository
+    -p, --github_password    github password
     -a, --annotations[array] array of annotations
+    -r, --prefix             Prefix to use when creating issues
 
 
 ### Custom Annotations
