@@ -84,13 +84,16 @@ Include a .fixme-to-issue in the root folder of your project and update the conf
 
 
 ### Custom Annotations
-You can create your own custom annotations by adding them to the .fixme-to-issue file:
+You can create your own custom annotations by adding them to the .fixme-to-issue file, you need to add an object containting:
+- name: name of the custom annotation, and then the program will look for this "annotation name" in your code
+- label: the issues will be created and use this github label, it can be a string or an array of labels
+- color: The color in the console output, it has to be a [chalk](https://github.com/chalk/chalk) color
 
 Example:
 ```
 {
-  "name": "CUSTOM", // The program will look for NOTE annotations in your code
-  "label": "custom github label", // the issues will be created and use this github label, it can be a string or an array of labels
-  "color": "green" // The color in the console output, it has to be a [chalk](https://github.com/chalk/chalk) color
+  "name": "CUSTOM",
+  "label": "custom github label",
+  "color": "green"
 }
 ```
