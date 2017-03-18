@@ -90,7 +90,7 @@ Example:
 ```
 {
   "name": "CUSTOM", // The program will look for NOTE annotations in your code
-  "label": "custom github label", // Once found, the issues will be created and use this github label, it can be a string or an array of labels
-  "color": "green" // The color in the console output, it has to be a chalk color
+  "label": "custom github label", // the issues will be created and use this github label, it can be a string or an array of labels
+  "color": "green" // The color in the console output, it has to be a [chalk](https://github.com/chalk/chalk) color
 }
 ```
