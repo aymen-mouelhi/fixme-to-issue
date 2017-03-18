@@ -1,5 +1,6 @@
 # fixme-to-issue
 Automagically turn your code annotations (like TODO or FIXME ) to github / gitlab issues.
+This repository is a fork of the excellent [fixme](https://github.com/JohnPostlethwait/fixme) repository + adding github support.
 
 
 ### Installation
@@ -22,6 +23,11 @@ fixme-to-issue [options]
 Include a .fixme-to-issue in the root folder of your project and update the configuration:
 ```
 {
+  "max_line_length": 1000,
+  "ignore_hidden": false,
+  "use_git_ignore": true,
+  "ignored_directories": ["bin"],
+  "encoding": "utf8",
   "github": {
     "username": "USERNAME",
     "password": "PASSWORD"
