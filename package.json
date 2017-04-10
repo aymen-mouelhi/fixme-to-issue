@@ -1,6 +1,6 @@
 {
   "name": "fixme-to-issue",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Automagically turn code annotations to github issues",
   "main": "./lib/index.js",
   "scripts": {
